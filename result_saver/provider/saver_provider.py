@@ -14,7 +14,7 @@ from result_saver.json import ResultSaverDecoder, ResultSaverEncoder
 from qiskit_ibm_provider import IBMProvider
 from qiskit.providers.backend import BackendV1 as Backend
 
-from Scratch import find_and_create_scratch, update_metadata, metadata_loader
+from ..Scratch import find_and_create_scratch, update_metadata, metadata_loader
 
 
 class SaverProvider(IBMProvider):
